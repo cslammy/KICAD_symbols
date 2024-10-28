@@ -885,8 +885,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "."
-			(at 45.72 -7.62 0)
+		(property "Footprint" "charhead-lib:CMOS14PIN-DIP"
+			(at 16.51 -23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "."
+		(property "Footprint" "charhead-lib:CMOS14PIN-DIP"
 			(at 45.72 -7.62 0)
 			(effects
 				(font
