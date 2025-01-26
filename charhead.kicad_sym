@@ -6,8 +6,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
-			(at -5.08 -2.54 90)
+		(property "Reference" "CTP"
+			(at -6.35 3.302 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16,8 +16,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at -2.54 -2.54 90)
+		(property "Value" "~"
+			(at 2.54 3.302 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -25,8 +25,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "sem attenuverter euro 9-22-22:ALPSCENTERTAP"
-			(at 0 0 0)
+		(property "Footprint" "charhead-lib:ALPSCENTERTAP"
+			(at 1.778 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,20 +44,12 @@
 			)
 		)
 		(property "Description" " ALPS Pot with center tap ground "
-			(at 0 0 0)
+			(at -1.016 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "ALPSRK11K114_1_0"
@@ -266,6 +258,24 @@
 				)
 			)
 			(pin passive line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 7.62 270)
 				(length 2.54)
 				(name "HIGH"
@@ -315,24 +325,6 @@
 					(effects
 						(font
 							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 0 0)
-				(length 5.08)
-				(name "P$1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$4"
-					(effects
-						(font
-							(size 1.27 1.27)
 						)
 					)
 				)
